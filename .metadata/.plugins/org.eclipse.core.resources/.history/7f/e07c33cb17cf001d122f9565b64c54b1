@@ -1,0 +1,9 @@
+package SpringIntro;
+
+public class CustomerManager {
+	public void add() {
+		//Is kurallari (Musteri eklenmis mi sartlar saglaniyor mu vs.)
+		CustomerDal customerDal = new CustomerDal();
+		customerDal.add();
+	}
+}
