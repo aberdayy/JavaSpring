@@ -1,7 +1,7 @@
 package SpringIntro;
 
 public class CustomerManager implements ICustomerService{
-	
+	String bisey;
 	
 	//Dependency Injection
 	private ICustomerDal customerDal;

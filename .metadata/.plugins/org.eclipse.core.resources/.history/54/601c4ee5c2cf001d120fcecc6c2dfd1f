@@ -1,6 +1,6 @@
 package SpringIntro;
 
-public class mySqlCustomerDal implements ICustomerDal{
+public class msSqlCustomerDal implements ICustomerDal{
 	String connectionString;
 	public String getConnectionString() {
 		return connectionString;
@@ -10,10 +10,8 @@ public class mySqlCustomerDal implements ICustomerDal{
 	}
 	@Override
 	public void add() {
-		// TODO Auto-generated method stub
-		System.out.println("Connection String : " +this.connectionString);
-
-		System.out.println("MySQL veritabanina Eklendi");
+		System.out.println("MsSQL veritabania gecildi");
+		
 	}
-	
+
 }
