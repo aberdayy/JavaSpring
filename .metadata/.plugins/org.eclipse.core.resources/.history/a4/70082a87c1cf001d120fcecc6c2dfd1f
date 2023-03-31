@@ -6,11 +6,11 @@
 	   http://www.springframework.org/schema/beans/spring-beans.xsd
 	   http://www.springframework.org/schema/context
 	   http://www.springframework.org/schema/context/spring-context.xsd">
-		<bean id="database" class="SpringIntro.CustomerDal">
+		<bean id="database" class="SpringIntro.msSqlCustomerDal">
 		</bean>	   
 		<bean id="service" class="SpringIntro.CustomerManager">
 <!-- 		<constructor-arg ref="database"/> -->
-		<property name="customerDal" ref="database"></property>
+		<property name="customerDal" ref="database" ></property>
 
 		</bean>	   
 </beans>
