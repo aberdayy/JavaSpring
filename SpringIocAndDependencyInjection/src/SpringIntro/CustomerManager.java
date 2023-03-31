@@ -1,6 +1,6 @@
 package SpringIntro;
 
-public class CustomerManager {
+public class CustomerManager implements ICustomerService{
 	//Dependency Injection
 	private ICustomerDal customerDal;
 	
