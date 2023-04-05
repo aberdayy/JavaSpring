@@ -9,8 +9,8 @@ public class Main {
 				new AnnotationConfigApplicationContext(IocConfig.class);
 
 		
-		ICustomerDal manager =context.getBean("database",ICustomerDal.class);
-		manager.add();
+		ICustomerService service =context.getBean("service",ICustomerService.class);
+		service.add();
 			
 		
 		//Bunun olmasi gereken alternatifi yukaridaki koddur.
