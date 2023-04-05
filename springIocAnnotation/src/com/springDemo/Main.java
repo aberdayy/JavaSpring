@@ -8,10 +8,9 @@ public class Main {
 		AnnotationConfigApplicationContext  context = 
 				new AnnotationConfigApplicationContext(IocConfig.class);
 
-		
+		 
 		ICustomerService service =context.getBean("service",ICustomerService.class);
 		service.add();
-			
 		
 		//Bunun olmasi gereken alternatifi yukaridaki koddur.
 		//CustomerManager manager = new CustomerManager(context.getBean("database",ICustomerDal.class));
