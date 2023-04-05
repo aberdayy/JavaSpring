@@ -1,8 +1,6 @@
 package com.springDemo;
 
-import org.springframework.stereotype.Component;
 
-@Component("database")
 public class mySqlCustomerDal implements ICustomerDal{
 	
 	String connectionString;
