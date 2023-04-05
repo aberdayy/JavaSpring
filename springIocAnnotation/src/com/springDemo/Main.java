@@ -1,17 +1,16 @@
 package com.springDemo;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
 
 	public static void main(String[] args) {
-		ClassPathXmlApplicationContext  context = 
-				new ClassPathXmlApplicationContext("applicationContext.xml");
-				
-				ICustomerDal manager =context.getBean("database",ICustomerDal.class);
-				
-				manager.add();
+		AnnotationConfigApplicationContext  context = 
+				new AnnotationConfigApplicationContext(IocConfig.class);
+
+		
+		ICustomerDal manager =context.getBean("database",ICustomerDal.class);
+		manager.add();
 			
 		
 		//Bunun olmasi gereken alternatifi yukaridaki koddur.
