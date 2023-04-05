@@ -2,7 +2,8 @@
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-19"/>
-	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="true"/>
+	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
+	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -31,7 +32,7 @@
 		<item key="height" value="400"/>
 	</section>
 	<section name="NewPackageWizardPage">
-		<item key="create_package_info_java" value="true"/>
+		<item key="create_package_info_java" value="false"/>
 	</section>
 	<section name="SourceActionDialog.constructors">
 		<item key="VisibilityModifier" value="1"/>
