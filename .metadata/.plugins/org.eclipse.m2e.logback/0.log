@@ -894,3 +894,6 @@ Caused by: java.lang.Exception: File not found: C:\Spring Boot\springBootDemo\po
 2023-04-07 14:34:40,613 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-04-07 14:34:40,617 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-04-07 14:34:40,619 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\atabe\eclipse-workspace\JavaSpring\springBootDemo\src\test\resources
+2023-04-07 14:58:43,170 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-07 14:58:43,174 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-07 14:58:43,176 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\atabe\eclipse-workspace\JavaSpring\springBootDemo\src\test\resources
