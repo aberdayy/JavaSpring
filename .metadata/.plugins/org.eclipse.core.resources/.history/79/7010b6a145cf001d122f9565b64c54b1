@@ -1,5 +1,0 @@
-package SpringIntro;
-
-public class msSqlCustomerDal implements ICustomerDal{
-
-}
